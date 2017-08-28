@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/buoy_date"
+            android:contentDescription=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="#283593"
+            android:textAlignment="center"
+            android:textColor="#FAFAFA"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/buoy"
+            android:contentDescription="@string/list_content_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/buoy_date"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/fab_margin"
+            android:src="@drawable/ic_list_item" />
+
+        <TextView
+            android:id="@+id/database_index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/database_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/buoy_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buoy_date"
+            android:layout_toEndOf="@id/buoy"
+            android:textColor="#F5F5F5" />
+
+        <TextView
+            android:id="@+id/text_longitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buoy_description"
+            android:layout_toEndOf="@id/buoy"
+            android:text="@string/list_long"
+            android:textColor="#F5F5F5" />
+
+        <TextView
+            android:id="@+id/buoy_longitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buoy_description"
+            android:layout_toEndOf="@id/text_longitude"
+            android:textColor="#F5F5F5" />
+
+        <TextView
+            android:id="@+id/text_latitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buoy_longitude"
+            android:layout_toEndOf="@id/buoy"
+            android:text="@string/list_lat"
+            android:textColor="#F5F5F5" />
+
+        <TextView
+            android:id="@+id/buoy_latitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_longitude"
+            android:layout_toEndOf="@id/text_latitude"
+            android:textColor="#F5F5F5" />
+</RelativeLayout>

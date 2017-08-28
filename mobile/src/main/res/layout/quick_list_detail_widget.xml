@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark">
+    <TextView
+        android:id="@+id/widget_buoy_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimaryDarker"
+        android:textAlignment="center"
+        android:textColor="@color/colorTextLight"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/widget_buoy_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/widget_buoy_date"
+        android:textColor="@color/colorTextLight" />
+    <TextView
+        android:id="@+id/widget_buoy_longlat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/widget_buoy_description"
+        android:textColor="@color/colorTextLight" />
+</RelativeLayout>

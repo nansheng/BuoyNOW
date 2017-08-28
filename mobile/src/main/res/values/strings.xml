@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Buoy NOW!</string>
+    <string name="action_settings">Settings</string>
+    <string name="list_empty_text">The List is Empty.\nLet\'s Buoy NOW!</string>
+    <string name="list_long">"Longitude :  "</string>
+    <string name="list_long_short">"Long: "</string>
+    <string name="list_lat">"Latitude :  "</string>
+    <string name="list_lat_short">"Lat: "</string>
+    <string name="list_address">"Address :  "</string>
+
+    <string name="default_desc">#TBD</string>
+    <string name="default_details">#DETAILS</string>
+
+    <string name="perm_location">Buoy NOW! needs Location Permission to be granted to work.
+     Let\'s try it again.</string>
+    <!-- Accessibility -->
+    <string name="list_content_description">Buoy Image</string>
+    <string name="fab_content_description">Adding Current Location</string>
+
+    <!-- Notification -->
+    <string name="notification_title">BUOY NOW! Notification</string>
+    <string name="notification_text">New Location Saved!</string>
+
+    <!-- Settings -->
+    <string name="title_activity_buoy_settings">BuoySettings</string>
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_autosave_locale">Auto-Save Locale when App Start</string>
+    <string name="pref_description_autosave_locale"></string>
+    <string name="pref_autosave_key">autosave_switch</string>
+    <string name="pref_initial_key">initial_run</string>
+
+    <string name="pref_title_send_notification">Send Notification after Locale Saved</string>
+    <string name="pref_description_send_notification"></string>
+    <string name="pref_notification_key">send_notification</string>
+
+    <string name="pref_sort_buoy_list">Sorting BUOY List by </string>
+    <string name="pref_sort_key">Sorting</string>
+    <string name="pref_sort_summary">Date</string>
+
+    <!-- Widget -->
+    <string name="appwidget_text">List BUOY!</string>
+    <string name="addwidget_text">Quick ADD!</string>
+    <string name="add_widget">Add widget</string>
+    <string name="resize_widget">Vertical</string>
+
+    <string name="pad_widget">"    "</string>
+    <string name="pad_detail">"                "</string>
+
+    <!-- Searchable-->
+    <string name="search_hint">Search BUOY!</string>
+    <string name="search_voice">Voice</string>
+    <string name="search_magnifier">Search</string>
+    <string name="title_activity_detail">Detail</string>
+
+    <!-- Auto Conversation -->
+    <string name="reply_key">voice_reply_key</string>
+    <string name="reply_prompt">Prompt text</string>
+</resources>
