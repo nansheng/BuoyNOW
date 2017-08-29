@@ -27,18 +27,18 @@
         android:layout_weight=".7">
         <EditText
             android:id="@+id/buoy_description"
+            android:inputType="text|textAutoComplete"
+            android:labelFor="@id/buoy_description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:inputType="text|textAutoComplete"
             android:maxLength="20"
-            android:text="Location"
             android:textColor="#F5F5F5" />
         <TextView
             android:id="@+id/text_latitude"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/buoy_description"
-            android:text="Latitude : "
+            android:text="@string/list_lat"
             android:textColor="#F5F5F5" />
         <TextView
             android:id="@+id/text_longitude"
@@ -46,7 +46,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/buoy_description"
             android:layout_toEndOf="@id/text_latitude"
-            android:text="Longitude : "
+            android:text="@string/list_long"
             android:textColor="#F5F5F5" />
         <TextView
             android:id="@+id/text_address"
@@ -54,7 +54,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/text_latitude"
             android:scrollHorizontally="false"
-            android:text="Address :"
+            android:text="@string/list_address"
             android:textColor="#F5F5F5" />
         <TextView
             android:id="@+id/text_details"
@@ -64,18 +64,18 @@
             android:layout_alignBottom="@+id/text_description"
             android:layout_alignParentStart="true"
             android:scrollHorizontally="false"
-            android:text="Description :  "
+            android:text="@string/list_description"
             android:textColor="#F5F5F5" />
         <EditText
             android:id="@+id/text_description"
+            android:inputType="textMultiLine|textAutoComplete"
+            android:labelFor="@id/text_description"
             style="@style/TextAppearance.AppCompat.Small"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/text_address"
             android:layout_toEndOf="@+id/text_details"
-            android:inputType="textMultiLine|textAutoComplete"
             android:maxLength="60"
-            android:text="Description"
             android:textColor="#F5F5F5" />
     </RelativeLayout>
 </LinearLayout>

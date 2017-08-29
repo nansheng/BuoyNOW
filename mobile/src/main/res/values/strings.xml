@@ -7,14 +7,17 @@
     <string name="list_lat">"Latitude :  "</string>
     <string name="list_lat_short">"Lat: "</string>
     <string name="list_address">"Address :  "</string>
+    <string name="list_description">"Description :  "</string>
 
     <string name="default_desc">#TBD</string>
     <string name="default_details">#DETAILS</string>
 
     <string name="perm_location">Buoy NOW! needs Location Permission to be granted to work.
      Let\'s try it again.</string>
+
     <!-- Accessibility -->
     <string name="list_content_description">Buoy Image</string>
+    <string name="quick_add_content_description">Quick Add Location</string>
     <string name="fab_content_description">Adding Current Location</string>
 
     <!-- Notification -->
