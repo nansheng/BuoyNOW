@@ -32,4 +32,10 @@ In addition the new command for build.gradle "implementation" has to change back
 Also, change the App build.gradle to exclude wear modules
      // wearApp project(':wear')
      
-     
+-------------------------------------------------------
+08/29/2017 - Rejected because Strings and Signature
+
+1. Clean up hardcoded string refering to Analyze tool on Android Studio.
+2. Created InstallRelease Gradle build.
+3. Created a new keystore: cap_keystore and add it to the root of the project
+4. Created a new key alias: udacity and ssigned key to project
